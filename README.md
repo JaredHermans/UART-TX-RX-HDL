@@ -10,4 +10,7 @@ start bit, one state for the 8 data bits, one state for a stop bit, and one stat
 **Binary_To_7Segment** module converts a 4 bit binary number to a hex number and displays it on a single
 7-Segment display.
 
+**UART_TB** testbench module exercises the UART_RX and UART_TX modules. Modelsim waveform image shows w_RX_Byte = 00110111 (4h'37) after transmission 
+is complete which passed the test.
+
 **VHDL** code with the same performance in **VHDL-Code**.
