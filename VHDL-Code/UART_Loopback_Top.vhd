@@ -1,3 +1,10 @@
+-----------------------------------------------------------------------------------------
+-- Jared Hermans
+-----------------------------------------------------------------------------------------
+-- Description: Recieved UART data drives 7-Segment displays and loopsback to the UART TX
+--              Back to the terminal in the computer. 
+--  
+-----------------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 

@@ -1,3 +1,16 @@
+-----------------------------------------------------------------------------------------
+-- Jared Hermans
+-----------------------------------------------------------------------------------------
+-- Description: This file contains the UART Transmitter. This transmitter is able to
+--              transmit 8 bits of serial data, one start bit, one stop bit, and no parity
+--              bit. When transmit is complete o_Tx_done will be driven high for one clock 
+--              cycle.
+--  
+-- Parameters: Set Parameter CLKS_PER_BIT as follows:
+--              CLKS_PER_BIT = (Frequency of i_Clock) / (Frequency of UART)
+--              25 MHz Clock, 115200 baud UART
+--              (25000000) / (115200) = 217
+-----------------------------------------------------------------------------------------
 --This file contains the uART Transmitter. This transmitter is able to transmit 8 bits
 --of serial data, one start bit, one stop bit, and no parity bit. When transmit is 
 --complete o_TX_Done will be driven high for one clock cycle.

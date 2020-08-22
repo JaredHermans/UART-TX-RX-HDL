@@ -1,3 +1,10 @@
+-----------------------------------------------------------------------------------------
+-- Jared Hermans
+-----------------------------------------------------------------------------------------
+-- Description: This testbench will exercise the UART RX
+--  
+-- Parameters: it sends out byte 0x37, and ensures the TX recieves it correctly.
+-----------------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
