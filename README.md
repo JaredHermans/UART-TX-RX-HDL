@@ -1,4 +1,4 @@
-# UART-TX-RX-HDL
+# UART-TX/RX-HDL
 This project creates a loopback of data sent by the computer via a serial COM connection. The Go Board FPGA recieves data from the computer,
 displays it on the two 7-segment displays and then transmits the recieved data back to the computer. The UART recievers operates at 115,200 baud.
 
