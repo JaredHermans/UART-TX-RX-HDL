@@ -1,8 +1,12 @@
-//This testbench will exercise the UART RX
-//it sends out byte 0x37, and ensures the TX recieves it correctly.
-`timescale 1ns/1ps
+/////////////////////////////////////////////////////////////////////////////////////////
+// Jared Hermans
+/////////////////////////////////////////////////////////////////////////////////////////
+// Description: This testbench will exercise the UART RX
+//
+// Parameters:  it sends out byte 0x37, and ensures the TX recieves it correctly.
+////////////////////////////////////////////////////////////////////////////////////////
 
-`include "UART_TX.v"
+`timescale 1ns/1ps
 
 module UART_TB ();
 
@@ -65,7 +69,6 @@ module UART_TB ();
             $display("Test passed - Correct byte received");
         else
             $display("Test Failed - Incorrect byte received"); 
-        //$display("byte recieved is: %d", w_RX_Byte);
         $finish();
     end
 endmodule
